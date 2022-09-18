@@ -1,0 +1,162 @@
+body{
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgb(220, 232, 235) 0%, rgb(132, 179, 224) 81.3% ); ;
+}
+
+
+
+
+header{
+    font-size: 1em;
+    border-top: 1px solid #444;
+    margin-top: 10px;
+    background-color: #444;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-right a{
+    color: rgb(222, 239, 241);
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+    
+}
+
+
+header nav .nav-left .register-login-btn{
+    border: 1px solid #666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header nav .nav-left .register-login-btn i{
+    margin: 7px;
+    color: rgb(222, 239, 241);
+    font-size: 1.1em;
+
+}
+
+header nav .nav-left .register-login-btn a{
+    color: rgb(222, 241, 236);
+    margin: 0px 10px;
+    font-size: .9em;
+}
+section .text{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(231, 19, 150);
+    margin: 5px 350px;
+    border-bottom: 2px solid rgb(17, 19, 15);
+    text-align: center;
+}
+ .socials{
+    display: flex;
+    justify-content: space-around;
+}
+ .socials a{
+    color: #444;
+    font-size: 1.4em;
+}
+/*slideshow*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    margin: 10px 95px;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
